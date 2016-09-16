@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D9A4200FBFECA44B8D2CBE7 /* Pods_tumble_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D971FD418200E164369D0613 /* Pods_tumble_ios.framework */; };
+		4FB4F34FEEADE1A1F2F1F0BB /* Pods_tumble_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60687E8D6D4B9C4221FEF6E6 /* Pods_tumble_iosUITests.framework */; };
 		8656A3941D8B98D1001DE18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3931D8B98D1001DE18F /* AppDelegate.swift */; };
-		8656A3961D8B98D1001DE18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3951D8B98D1001DE18F /* ViewController.swift */; };
 		8656A3991D8B98D1001DE18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8656A3971D8B98D1001DE18F /* Main.storyboard */; };
 		8656A39B1D8B98D1001DE18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8656A39A1D8B98D1001DE18F /* Assets.xcassets */; };
 		8656A39E1D8B98D1001DE18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8656A39C1D8B98D1001DE18F /* LaunchScreen.storyboard */; };
 		8656A3A91D8B98D1001DE18F /* tumble_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3A81D8B98D1001DE18F /* tumble_iosTests.swift */; };
 		8656A3B41D8B98D1001DE18F /* tumble_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3B31D8B98D1001DE18F /* tumble_iosUITests.swift */; };
+		8656A3C21D8B9C61001DE18F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3C11D8B9C61001DE18F /* PhotoViewController.swift */; };
+		8656A3C41D8BA246001DE18F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3C31D8BA246001DE18F /* PhotoCell.swift */; };
+		8656A3C61D8BB0FF001DE18F /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3C51D8BB0FF001DE18F /* PhotoDetailsViewController.swift */; };
+		8656A3C81D8BB96D001DE18F /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A3C71D8BB96D001DE18F /* InfiniteScrollActivityView.swift */; };
+		FF7FCC076F67C0FE6B89094C /* Pods_tumble_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D0B754BAEF33E1A3550454 /* Pods_tumble_iosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3434609C430F90FC4325FDEC /* Pods-tumble-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumble-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumble-ios/Pods-tumble-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		60687E8D6D4B9C4221FEF6E6 /* Pods_tumble_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumble_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D0B754BAEF33E1A3550454 /* Pods_tumble_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumble_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694FAC89AC7B29CBFE205904 /* Pods-tumble-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumble-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumble-iosTests/Pods-tumble-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8656A3901D8B98D1001DE18F /* tumble-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tumble-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8656A3931D8B98D1001DE18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8656A3951D8B98D1001DE18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8656A3981D8B98D1001DE18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8656A39A1D8B98D1001DE18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8656A39D1D8B98D1001DE18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		8656A3AF1D8B98D1001DE18F /* tumble-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tumble-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8656A3B31D8B98D1001DE18F /* tumble_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumble_iosUITests.swift; sourceTree = "<group>"; };
 		8656A3B51D8B98D1001DE18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8656A3C11D8B9C61001DE18F /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		8656A3C31D8BA246001DE18F /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		8656A3C51D8BB0FF001DE18F /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		8656A3C71D8BB96D001DE18F /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
+		A45226D50E7D648D4AAE109A /* Pods-tumble-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumble-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumble-iosUITests/Pods-tumble-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF6034CA4F4FDD5AE74F0B08 /* Pods-tumble-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumble-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumble-ios/Pods-tumble-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D971FD418200E164369D0613 /* Pods_tumble_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumble_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BBCD0BD31C870884860E03 /* Pods-tumble-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumble-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumble-iosTests/Pods-tumble-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3FE2918CA5C7D73C59D1ED0 /* Pods-tumble-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumble-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumble-iosUITests/Pods-tumble-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9A4200FBFECA44B8D2CBE7 /* Pods_tumble_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7FCC076F67C0FE6B89094C /* Pods_tumble_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB4F34FEEADE1A1F2F1F0BB /* Pods_tumble_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C602F4107671929083F02A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D971FD418200E164369D0613 /* Pods_tumble_ios.framework */,
+				62D0B754BAEF33E1A3550454 /* Pods_tumble_iosTests.framework */,
+				60687E8D6D4B9C4221FEF6E6 /* Pods_tumble_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8656A3871D8B98D1001DE18F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				8656A3A71D8B98D1001DE18F /* tumble-iosTests */,
 				8656A3B21D8B98D1001DE18F /* tumble-iosUITests */,
 				8656A3911D8B98D1001DE18F /* Products */,
+				F56606AF2716BD293381AB7D /* Pods */,
+				4C602F4107671929083F02A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,15 @@
 		8656A3921D8B98D1001DE18F /* tumble-ios */ = {
 			isa = PBXGroup;
 			children = (
+				8656A3C11D8B9C61001DE18F /* PhotoViewController.swift */,
+				8656A3C71D8BB96D001DE18F /* InfiniteScrollActivityView.swift */,
 				8656A3931D8B98D1001DE18F /* AppDelegate.swift */,
-				8656A3951D8B98D1001DE18F /* ViewController.swift */,
 				8656A3971D8B98D1001DE18F /* Main.storyboard */,
 				8656A39A1D8B98D1001DE18F /* Assets.xcassets */,
 				8656A39C1D8B98D1001DE18F /* LaunchScreen.storyboard */,
 				8656A39F1D8B98D1001DE18F /* Info.plist */,
+				8656A3C31D8BA246001DE18F /* PhotoCell.swift */,
+				8656A3C51D8BB0FF001DE18F /* PhotoDetailsViewController.swift */,
 			);
 			path = "tumble-ios";
 			sourceTree = "<group>";
@@ -125,6 +161,19 @@
 			path = "tumble-iosUITests";
 			sourceTree = "<group>";
 		};
+		F56606AF2716BD293381AB7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3434609C430F90FC4325FDEC /* Pods-tumble-ios.debug.xcconfig */,
+				CF6034CA4F4FDD5AE74F0B08 /* Pods-tumble-ios.release.xcconfig */,
+				694FAC89AC7B29CBFE205904 /* Pods-tumble-iosTests.debug.xcconfig */,
+				E3BBCD0BD31C870884860E03 /* Pods-tumble-iosTests.release.xcconfig */,
+				F3FE2918CA5C7D73C59D1ED0 /* Pods-tumble-iosUITests.debug.xcconfig */,
+				A45226D50E7D648D4AAE109A /* Pods-tumble-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8656A3B81D8B98D1001DE18F /* Build configuration list for PBXNativeTarget "tumble-ios" */;
 			buildPhases = (
+				19C38D323F0A9B64A27EEDF9 /* [CP] Check Pods Manifest.lock */,
 				8656A38C1D8B98D1001DE18F /* Sources */,
 				8656A38D1D8B98D1001DE18F /* Frameworks */,
 				8656A38E1D8B98D1001DE18F /* Resources */,
+				C0A735F5D19C9F596B296179 /* [CP] Embed Pods Frameworks */,
+				E66EBC08467C755125FE21BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8656A3BB1D8B98D1001DE18F /* Build configuration list for PBXNativeTarget "tumble-iosTests" */;
 			buildPhases = (
+				6BCE203E06BC6540BEE21625 /* [CP] Check Pods Manifest.lock */,
 				8656A3A01D8B98D1001DE18F /* Sources */,
 				8656A3A11D8B98D1001DE18F /* Frameworks */,
 				8656A3A21D8B98D1001DE18F /* Resources */,
+				AD7C3FBA06FCE4C3B8F691CC /* [CP] Embed Pods Frameworks */,
+				8EC34F8E51B98E7D39AB2011 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8656A3BE1D8B98D1001DE18F /* Build configuration list for PBXNativeTarget "tumble-iosUITests" */;
 			buildPhases = (
+				63D8313B5ABF24ED1FF75C45 /* [CP] Check Pods Manifest.lock */,
 				8656A3AB1D8B98D1001DE18F /* Sources */,
 				8656A3AC1D8B98D1001DE18F /* Frameworks */,
 				8656A3AD1D8B98D1001DE18F /* Resources */,
+				FB7442BC42E87274768BEB2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +308,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19C38D323F0A9B64A27EEDF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63D8313B5ABF24ED1FF75C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BCE203E06BC6540BEE21625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC34F8E51B98E7D39AB2011 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumble-iosTests/Pods-tumble-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7C3FBA06FCE4C3B8F691CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumble-iosTests/Pods-tumble-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A735F5D19C9F596B296179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumble-ios/Pods-tumble-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E66EBC08467C755125FE21BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumble-ios/Pods-tumble-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7442BC42E87274768BEB2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumble-iosUITests/Pods-tumble-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8656A38C1D8B98D1001DE18F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8656A3961D8B98D1001DE18F /* ViewController.swift in Sources */,
+				8656A3C81D8BB96D001DE18F /* InfiniteScrollActivityView.swift in Sources */,
+				8656A3C61D8BB0FF001DE18F /* PhotoDetailsViewController.swift in Sources */,
 				8656A3941D8B98D1001DE18F /* AppDelegate.swift in Sources */,
+				8656A3C41D8BA246001DE18F /* PhotoCell.swift in Sources */,
+				8656A3C21D8B9C61001DE18F /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +580,7 @@
 		};
 		8656A3B91D8B98D1001DE18F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3434609C430F90FC4325FDEC /* Pods-tumble-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tumble-ios/Info.plist";
@@ -408,6 +592,7 @@
 		};
 		8656A3BA1D8B98D1001DE18F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6034CA4F4FDD5AE74F0B08 /* Pods-tumble-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tumble-ios/Info.plist";
@@ -419,6 +604,7 @@
 		};
 		8656A3BC1D8B98D1001DE18F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694FAC89AC7B29CBFE205904 /* Pods-tumble-iosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "tumble-iosTests/Info.plist";
@@ -431,6 +617,7 @@
 		};
 		8656A3BD1D8B98D1001DE18F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BBCD0BD31C870884860E03 /* Pods-tumble-iosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "tumble-iosTests/Info.plist";
@@ -443,6 +630,7 @@
 		};
 		8656A3BF1D8B98D1001DE18F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FE2918CA5C7D73C59D1ED0 /* Pods-tumble-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "tumble-iosUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +642,7 @@
 		};
 		8656A3C01D8B98D1001DE18F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45226D50E7D648D4AAE109A /* Pods-tumble-iosUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "tumble-iosUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +671,7 @@
 				8656A3BA1D8B98D1001DE18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8656A3BB1D8B98D1001DE18F /* Build configuration list for PBXNativeTarget "tumble-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +680,7 @@
 				8656A3BD1D8B98D1001DE18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8656A3BE1D8B98D1001DE18F /* Build configuration list for PBXNativeTarget "tumble-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +689,7 @@
 				8656A3C01D8B98D1001DE18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
