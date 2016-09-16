@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>tumble-ios.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8656A38F1D8B98D1001DE18F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8656A3A31D8B98D1001DE18F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8656A3AE1D8B98D1001DE18F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
